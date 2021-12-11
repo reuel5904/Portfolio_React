@@ -9,13 +9,13 @@ export default function Header() {
                 <h1 className="title title--secondary">I'm Reuel</h1>
                 <p className="header__para"><span className="highlighted-text title-position">Frontend Developer</span></p>
                 <div className="social__list">
-                    <a href="/" className="social__link click">
+                    <a href="https://www.linkedin.com/in/reuel-palanca-7b5079173/" target="_blank" rel="noreferrer" className="social__link click">
                         <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
                     </a>
-                    <a href="/" className="social__link click">
+                    <a href="https://github.com/reuel5904" target="_blank" rel="noreferrer" className="social__link click">
                         <FontAwesomeIcon icon={['fab', 'github']} />
                     </a>
-                    <a href="/" className="social__link click">
+                    <a href="/" target="_blank" rel="noreferrer" className="social__link click">
                         <FontAwesomeIcon icon="file-pdf" />
                     </a>
                 </div>
