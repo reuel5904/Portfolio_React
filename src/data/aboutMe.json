@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "title": "About Me",
+        "description": "Hey there! My name is Reuel Palanca and I'm a 22-year-old Frontend Software Engineer. I am passionate about Web Development, and I am always eager to learn more. One of the things I look forward to is taking on a new challenge and developing web applications. I have a background in completing three Google certificates and developing my own projects. When I'm not typing away at VSCode, my interests align with watching anime, playing video games or maintaining my CSS for subreddits on Reddit.",
+        "image": "https://i.imgur.com/iVaALKU.png"
+    },
+    {
+        "id": 2,
+        "title": "Technology Stack",
+        "description": "",
+        "image": "https://i.imgur.com/tiG9n09.png"
+    }
+]

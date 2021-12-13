@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png",
+        "alt": "HTML",
+        "name": "HTML"
+    },
+    {
+        "id": 2,
+        "image": "https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png",
+        "alt": "CSS",
+        "name": "CSS"
+    },
+    {
+        "id": 3,
+        "image": "https://i.imgur.com/wuSSXhE.png",
+        "alt": "Javascript",
+        "name": "Javascript"
+    },
+    {
+        "id": 4,
+        "image": "https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png",
+        "alt": "React",
+        "name": "React"
+    },
+    {
+        "id": 5,
+        "image": "https://i.imgur.com/nrE8mFL.png",
+        "alt": "Python",
+        "name": "Python"
+    },
+    {
+        "id": 6,
+        "image": "https://i.imgur.com/Jmh67Yp.png",
+        "alt": "Git",
+        "name": "Git"
+    }
+]

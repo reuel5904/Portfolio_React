@@ -3,8 +3,11 @@ import Nav from './ui/Nav'
 import Logo from '../assets/logo.png'
 import Header from './ui/Header'
 import LandingExtra from './ui/LandingExtra'
+import Resume from "../assets/Resume.pdf"
+import '../css/landing.css'
+import '../css/nav.css'
 
-export default function Landing({ toggleModal, projectId, projectsInfo }) {
+export default function Landing({projectId, projectsInfo }) {
     const scaleFactor = 1 / 20
     
     function moveBackground(event) {
@@ -21,8 +24,8 @@ export default function Landing({ toggleModal, projectId, projectsInfo }) {
     return (
         <section id="landing-page" onMouseMove={(event) => moveBackground(event)}>
             <Nav Logo={Logo}/>
-            <Header />
-            <LandingExtra toggleModal={toggleModal} projectId={projectId} projectsInfo={projectsInfo}/>
+            <Header Resume={Resume}/>
+            <LandingExtra projectId={projectId} projectsInfo={projectsInfo}/>
         </section>
     )
 }

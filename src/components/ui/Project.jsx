@@ -3,8 +3,8 @@ import React from 'react'
 
 export default function Project({ toggleModal, image, title, subtitle, id, getProjectID, github, url}) {
     function twoFunctions(event) {
-        toggleModal();
         getProjectID(event)
+        toggleModal();
     }
 
     return (
@@ -13,7 +13,7 @@ export default function Project({ toggleModal, image, title, subtitle, id, getPr
                 <img src={image} alt="Project" className="project__img" />
                 <div className="project__wrapper--bg"></div>
                 <div className="project__description">
-                    <a href="#modal" className="project__link" onClick={(event) => twoFunctions(event.target.id)}>
+                    <a href="#landing-page" className="project__link" onClick={(event) => twoFunctions(event.target.id)}>
                         <h3 className="project__description--title" id={id}>{title}</h3>
                     </a>
                     <h4 className="project__description--sub-title">{subtitle}</h4>

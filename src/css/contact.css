@@ -1,0 +1,105 @@
+/**************
+    CONTACT
+***************/
+
+.contact__me-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .contact__me--title {
+    margin-bottom: 4px;
+  }
+  
+  .form__contact {
+    width: 100%;
+    max-width: 800px;
+    padding: 32px 24px 0px 24px
+  }
+  
+  .form__item {
+    margin-bottom: 20px;
+  }
+  
+  .form__button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .form__submit {
+    background-color: #1C4442;
+    border: 2px solid #1C4442;
+    color: #fff;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 24px;
+    max-width: 240px;
+    padding: 12px 24px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms ease;
+  }
+  
+  .form__submit:hover {
+    border-color: #fff;
+    background-color: transparent;
+  }
+  
+  .form__submit:active {
+    border-color: #1C4442;
+    color: #1C4442;
+  }
+  
+  .contact__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+  }
+  
+  .fa-spinner {
+    animation: rotateSpinner 750ms infinite;
+  }
+  
+  @keyframes rotateSpinner {
+    0% {
+      transform: rotate(0);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .contact__overlay--loading {
+    background-color: #85ccc9;
+    font-size: 80px;
+    z-index: -1;
+  }
+  
+  .contact__overlay--success {
+    background-color: #85ccc9;
+    color: #242424;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 28px;
+    z-index: -1;
+  }
+  
+  .contact__overlay--visible {
+    z-index: 1;
+    transition: all 300ms ease;
+  }

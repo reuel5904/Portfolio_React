@@ -10,24 +10,18 @@ import Quote from "./components/Quote";
 
 function App() {
   const [projectId, setProjectId] = useState(1)
-  let isModalOpen = false;
   
-  function toggleModal() {
-      if (isModalOpen) {
-          isModalOpen = false;
-          return document.body.classList.remove("modal--open")
-      }
-      isModalOpen = true;
-      document.body.classList += " modal--open"
+  function toggleModal() {  
+      document.body.classList += " modal--open";
   }
 
   function getProjectID(projectID) {
     setProjectId(projectID)
   }
-
+  
   return (
     <div className="App">
-      <Landing toggleModal={toggleModal} projects={projects} projectsInfo={projectsInfo} projectId={projectId}/>
+      <Landing projectsInfo={projectsInfo} projectId={projectId}/>
       <Quote />
       <AboutMe />
       <Projects toggleModal={toggleModal} projects={projects} getProjectID={getProjectID}/>

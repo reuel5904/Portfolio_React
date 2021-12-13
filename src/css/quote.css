@@ -1,0 +1,67 @@
+/**********
+   QUOTE
+**********/
+
+#quote__section {
+    padding-top: 80px;
+    height: 500px;
+    width: 100%;
+  }
+  
+  .quote__box {
+    width: 370px;
+    border: 3px solid #1C4442;
+    margin: 100px auto;
+    text-align: center;
+    position: relative;
+    color: #242424;
+    font-weight: 700;
+    padding: 15px;
+  }
+  
+  
+  .quote__title {
+    background:#1C4442;
+    color:#fff;
+    padding:10px 20px;
+    font-size:20px;
+    position:relative; 
+    top:-28px;
+  }
+  
+  .corner{
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    border:1px solid #fff;
+    transform:rotate(-45deg);  
+    position:absolute;
+  }
+  
+  .left_top {
+    top:-16px;
+    left:-16px;
+    border-color: transparent transparent #1C4442 transparent;
+  }
+  
+  .right_top {
+    top:-16px;
+    right:-16px;
+    border-color: transparent transparent transparent #1C4442;
+  }
+  
+  .left_bottom {
+    bottom:-16px;
+    left:-16px;
+    border-color: transparent #1C4442 transparent transparent ;
+  }
+  
+  .right_bottom {
+    bottom:-16px;
+    right:-16px;
+    border-color: #1C4442 transparent transparent transparent;
+  }
+  
+  .quote__paragraph {
+    font-size:18px
+  }
