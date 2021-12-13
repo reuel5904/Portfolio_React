@@ -136,4 +136,7 @@
   .project__description--links {
     margin-top: 16px;
   }
+  .project__wrapper {
+    max-height: 232px;
+  }
 }
