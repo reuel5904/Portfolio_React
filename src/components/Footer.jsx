@@ -19,7 +19,7 @@ export default function Footer() {
                         <a href="mailto:reuelpalancas@gmail.com" target="_blank" rel="noreferrer" className="footer__social--link link__hover-effect link__hover-effect--white">Email</a>
                         <a href={Resume} target="_blank" rel="noreferrer" className="footer__social--link link__hover-effect link__hover-effect--white">Resume</a>
                     </div>
-                    <div className="footer__copyright">Copyright &copy; Reuel - 2021</div>
+                    <div className="footer__copyright">Copyright &copy; Reuel - 2024</div>
                 </div>
             </div>
         </footer>

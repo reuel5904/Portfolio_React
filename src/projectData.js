@@ -5,7 +5,7 @@ export const projects = [
         subtitle: "React App that utilizes TMDB API to search and discover movie details.",
         image: "https://i.imgur.com/ustc5qC.png",
         github: "https://github.com/reuel5904/MovieToons",
-        url: "https://movietoons-react.herokuapp.com/",
+        url: "https://jolly-raman-b9f346.netlify.app/",
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ export const projects = [
         subtitle: "E-Commerce React App with dynamic data generation and extra functionality.",
         image: "https://i.imgur.com/wSwyhEJ.png",
         github: "https://github.com/reuel5904/React-MangaOpus",
-        url: "https://mangaopus-react.herokuapp.com/",
+        url: "https://precious-hotteok-fa1fe2.netlify.app/",
     },
     {
         id: 3,

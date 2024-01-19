@@ -25,12 +25,24 @@
     },
     {
         "id": 5,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/640px-Svelte_Logo.svg.png",
+        "alt": "Svelte",
+        "name": "Svelte"
+    },
+    {
+        "id": 6,
         "image": "https://i.imgur.com/nrE8mFL.png",
         "alt": "Python",
         "name": "Python"
     },
     {
-        "id": 6,
+        "id": 7,
+        "image": "https://sass-lang.com/assets/img/styleguide/seal-color.png",
+        "alt": "SASS",
+        "name": "SASS"
+    },
+    {
+        "id": 8,
         "image": "https://i.imgur.com/Jmh67Yp.png",
         "alt": "Git",
         "name": "Git"

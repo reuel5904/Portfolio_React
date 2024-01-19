@@ -9,7 +9,8 @@
   }
   
   .quote__box {
-    width: 370px;
+    width: 100%;
+    max-width: 370px;
     border: 3px solid #1C4442;
     margin: 100px auto;
     text-align: center;
